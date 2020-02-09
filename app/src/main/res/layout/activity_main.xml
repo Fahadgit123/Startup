@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8EFF9B"
+    tools:context="com.example.toshiba.marketmonitoringapp.MainActivity">
+
+    <Button
+        android:id="@+id/btn_importer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Importers information"
+        android:background="#33ff57"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_holsellers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Holsells price"
+        android:background="#cc0000"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_localmarket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Localmarket price"
+        android:background="#33ff57"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff4d"
+    tools:context="com.example.toshiba.marketmonitoringapp.Importer_activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/horizontal_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Importers activity"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/horizontal_txt"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:text="Complain" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rice  35 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dal   85 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oil    35 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Onion 35 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Potato 35 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sugar 35 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turmeric powder 250 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chili 35 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ginger 85 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atta 45 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suji 42 bdt per kg"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Potato 35 bdt"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sugar 35 bdt"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rice 35 bdt"
+        android:textSize="22sp"/>
+
+</LinearLayout>
